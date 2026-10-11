@@ -1,0 +1,60 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+
+    <key>CFBundleDisplayName</key>
+    <string>Fotocabina Pro</string>
+
+    <!-- Permiso para utilizar la cámara -->
+    <key>NSCameraUsageDescription</key>
+    <string>Fotocabina Pro necesita acceder a la cámara para tomar fotografías.</string>
+
+    <!-- Permiso para acceder a la galería, si se utiliza -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Fotocabina Pro permite seleccionar fotografías para personalizar las sesiones.</string>
+
+    <!-- Acceso a la red Wi-Fi local -->
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Fotocabina Pro comparte fotografías temporalmente con los invitados mediante una red local sin internet.</string>
+
+    <!-- Permitir conexiones HTTP a direcciones de red local -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsLocalNetworking</key>
+        <true/>
+    </dict>
+
+    <!-- Permisos para mantener el funcionamiento normal de Flutter -->
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+</dict>
+</plist>

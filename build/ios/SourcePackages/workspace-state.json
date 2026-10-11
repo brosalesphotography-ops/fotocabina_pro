@@ -1,0 +1,83 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "camera_avfoundation-0.10.3+1",
+          "kind" : "fileSystem",
+          "location" : "/Users/benjaminrosales/Documents/DesarrolloFluter/fotocabina_pro/ios/Flutter/ephemeral/Packages/.packages/camera_avfoundation-0.10.3+1",
+          "name" : "camera_avfoundation"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/benjaminrosales/Documents/DesarrolloFluter/fotocabina_pro/ios/Flutter/ephemeral/Packages/.packages/camera_avfoundation-0.10.3+1"
+        },
+        "subpath" : "camera_avfoundation-0.10.3+1"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "flutterframework",
+          "kind" : "fileSystem",
+          "location" : "/Users/benjaminrosales/Documents/DesarrolloFluter/fotocabina_pro/ios/Flutter/ephemeral/Packages/.packages/FlutterFramework",
+          "name" : "FlutterFramework"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/benjaminrosales/Documents/DesarrolloFluter/fotocabina_pro/ios/Flutter/ephemeral/Packages/.packages/FlutterFramework"
+        },
+        "subpath" : "flutterframework"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "network_info_plus-8.2.2",
+          "kind" : "fileSystem",
+          "location" : "/Users/benjaminrosales/Documents/DesarrolloFluter/fotocabina_pro/ios/Flutter/ephemeral/Packages/.packages/network_info_plus-8.2.2",
+          "name" : "network_info_plus"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/benjaminrosales/Documents/DesarrolloFluter/fotocabina_pro/ios/Flutter/ephemeral/Packages/.packages/network_info_plus-8.2.2"
+        },
+        "subpath" : "network_info_plus-8.2.2"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "printing-5.15.1",
+          "kind" : "fileSystem",
+          "location" : "/Users/benjaminrosales/Documents/DesarrolloFluter/fotocabina_pro/ios/Flutter/ephemeral/Packages/.packages/printing-5.15.1",
+          "name" : "printing"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/benjaminrosales/Documents/DesarrolloFluter/fotocabina_pro/ios/Flutter/ephemeral/Packages/.packages/printing-5.15.1"
+        },
+        "subpath" : "printing-5.15.1"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "shared_preferences_foundation-2.5.7",
+          "kind" : "fileSystem",
+          "location" : "/Users/benjaminrosales/Documents/DesarrolloFluter/fotocabina_pro/ios/Flutter/ephemeral/Packages/.packages/shared_preferences_foundation-2.5.7",
+          "name" : "shared_preferences_foundation"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/benjaminrosales/Documents/DesarrolloFluter/fotocabina_pro/ios/Flutter/ephemeral/Packages/.packages/shared_preferences_foundation-2.5.7"
+        },
+        "subpath" : "shared_preferences_foundation-2.5.7"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}
